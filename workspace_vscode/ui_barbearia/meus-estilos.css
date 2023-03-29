@@ -1,21 +1,26 @@
 body{
-
-    background: yellow;
 }
 
-p{
+.principal{
+    background: silver;
+}
+
+.beneficios {
+    background: #fff;
+}
+p {
     text-align: center;
 }
 
-strong em{
-    color: blue;
+em strong{
+    color: red;
 }
 
 #missao {
     font-size: 20px;
 }
 
-h1 {
+h1{
     text-align: center;
 }
 
@@ -27,15 +32,11 @@ h1 {
     font-style: italic;
 }
 
-.principal {
-    background: silver;
-}
-
-.beneficios {
-    background: #FFFFFF;
-}
-
-#beneficio {
+#imagembeneficio {
     width: 50%;
 }
 
+ul{
+    display: inline-block;
+    vertical-align: top;
+}
