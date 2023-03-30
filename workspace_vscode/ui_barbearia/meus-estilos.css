@@ -1,18 +1,18 @@
-body{
-}
-
-.principal{
+.principal {
     background: silver;
 }
 
 .beneficios {
-    background: #fff;
+    background: #FFFFFF;
+    padding: 20px;
+
 }
+
 p {
     text-align: center;
 }
 
-em strong{
+em strong {
     color: red;
 }
 
@@ -20,7 +20,7 @@ em strong{
     font-size: 20px;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
@@ -36,7 +36,14 @@ h1{
     width: 50%;
 }
 
-ul{
+ul {
     display: inline-block;
     vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+
+}
+
+h2 {
+    text-align: center;
 }
