@@ -44,3 +44,9 @@ strong em {
     padding: 2vw;
     background-color: beige;
 }
+
+footer{
+    padding: 10vh;
+    text-align: center;
+    font-size: 80%rem;
+}
