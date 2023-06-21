@@ -9,20 +9,25 @@ import { ProdutoService } from 'src/app/services/produto.service';
 })
 export class ProdutoTabelaComponent implements OnInit {
 
-  produtos : ProdutoDTO[] = [];
+  produtos: ProdutoDTO[] = [];
 
-  constructor( private service: ProdutoService ) {}
+  constructor() {
+    this.produtos = [
+      { id: 1, descricao: 'Furadeira', preco: 800.00 }
+      ,
+      { id: 2, descricao: 'Lixadeira', preco: 350.00 }
+      ,
+      { id: 3, descricao: 'Serra Circular', preco: 500.00 }
+    ];
 
-
-  ngOnInit(): void {
-    this.service.findAll()
-      .subscribe({
-        next: (data) => this.produtos = data
-        ,
-        error: (e) => console.error(e)
-      });
+    //apenas para debug:
+    for (let p of this.produtos) {
+      console.log(p.id);
+      console.log(p.descricao);
+      console.log(p.preco);
+    }
   }
-
-
-
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
 }

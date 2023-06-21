@@ -15,5 +15,4 @@ export class ProdutoService {
   public findAll(): Observable<ProdutoDTO[]> {
     return this.client.get<ProdutoDTO[]>(this.URI_PRODUTOS);
   }
-
-}
+} 
