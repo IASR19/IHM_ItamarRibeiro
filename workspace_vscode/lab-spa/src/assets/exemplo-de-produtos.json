@@ -1,0 +1,9 @@
+[
+  {"id":4, "descricao":"Plaina de bancada", "preco":6000.00}
+   ,
+  {"id":5, "descricao":"Tupia de bancada", "preco":7000.00}
+   ,
+  {"id":6, "descricao":"Serra de bancada", "preco":8000.00}
+   ,
+  {"id":7, "descricao":"Lixadeira de bancada", "preco":9000.00}
+]

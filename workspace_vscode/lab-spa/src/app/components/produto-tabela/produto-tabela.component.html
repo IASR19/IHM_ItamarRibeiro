@@ -1,0 +1,23 @@
+<h1>Tabela de Produtos</h1>
+<table>
+  <thead>
+    <tr>
+      <td>ID</td>
+      <td>Descrição</td>
+      <td>Preço</td>
+    </tr>
+  </thead>
+
+  <tbody>
+    <ng-container *ngFor="let p of produtos" >
+
+      <tr>
+        <td> {{p.id}} </td>
+        <td> {{p.descricao}} </td>
+        <td> {{p.preco}} </td>
+      </tr>
+
+    </ng-container>
+
+  </tbody>
+</table>
