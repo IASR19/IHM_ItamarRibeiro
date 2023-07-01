@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ProdutoService {
 
-  private URI_PRODUTOS = "assets/exemplo-de-produtos.json";
+  private URI_PRODUTOS = "http://localhost:8081/produto";
 
   constructor(private client: HttpClient) { }
 
